@@ -162,9 +162,9 @@ class WeatherApp(QWidget):
         weather_description = data["current"]["condition"]["text"]
         city_region = data["location"]["region"]
         city_country = data["location"]["country"]
-        print(data)
-        print(weather_id)
-        print(weather_description)
+#        print(data)
+#        print(weather_id)
+#        print(weather_description)
 
         self.city_country.setText(city_country)
         self.city_label.setText(city_region)
