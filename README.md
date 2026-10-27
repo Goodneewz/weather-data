@@ -1,0 +1,1 @@
+Type in your location and click "Get Weather" to see the current weather update
