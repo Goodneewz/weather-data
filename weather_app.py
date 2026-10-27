@@ -2,6 +2,11 @@ import sys
 import requests
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
 from PyQt5.QtCore import Qt
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+api_key = os.getenv("WEATHER_API_KEY")
 
 #import traceback
 
